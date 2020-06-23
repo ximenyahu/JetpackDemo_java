@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bn_navigation.xml"
+    app:startDestination="@id/bn_first">
+
+    <fragment
+        android:id="@+id/bn_first"
+        android:name="com.example.jetpackdemo_java.FirstFragment"
+        android:label="FirstFragment" />
+    <fragment
+        android:id="@+id/bn_second"
+        android:name="com.example.jetpackdemo_java.SecondFragment"
+        android:label="SecondFragment" />
+    <fragment
+        android:id="@+id/bn_third"
+        android:name="com.example.jetpackdemo_java.ThirdFragment"
+        android:label="ThirdFragment" />
+    <fragment
+        android:id="@+id/bn_fourth"
+        android:name="com.example.jetpackdemo_java.FourthFragment"
+        android:label="FourthFragment" />
+</navigation>
